@@ -1,0 +1,175 @@
+
+@font-face {
+    font-family: idroid ;
+    src: url(fonts/idroid.otf);
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px;
+}
+h2{
+    font-family: "Idroid", sans-serif;
+}
+h1{
+    font-family: "Bebas Neue", cursive;
+    margin: 0px;
+}
+p, a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to bottom, #3DDC84, #2FA866);
+}
+header>h2{
+    font-size: 1em;
+
+}
+header>h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+header>nav {
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+nav{
+    box-shadow: inset 0 0 9px 0px black;
+    padding-top: 5px;
+    background-color: #3DDC84;
+    color: white;
+    
+}
+nav>a{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-family: "Idroid";
+    box-shadow: 4px 3px 7px 1px rgba(0, 0, 0, 0.452);
+    background:#063D1E;
+    margin-bottom: 5px;
+
+}
+main{ 
+    display: flex; 
+    margin: 0px 131px;
+    background: white;
+    justify-content: center;
+}
+section{
+    min-width: 500px ;
+
+    background: white;
+
+
+}
+body{
+    background: #063D1E;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#video{
+    padding: 10px 50px;
+    margin-bottom: 5px;
+    background: #063D1E;
+    box-shadow: inset 0 0 9px 0px black;
+}
+div#video > iframe{
+    height: 240px;
+    width: 442px;
+
+}
+#robo{
+height: auto;  
+width: 541px;  
+    
+    
+
+}
+#extra{
+    background: #2FA866;
+    border-radius: 10px 0px;
+    margin: 0px 5px;
+    text-indent: 20px;
+    
+}
+#extra>h2{
+    color: white;
+    background: #063D1E;
+    border-radius: 10px 0px 0px 0px;
+    text-align: left;
+    text-indent: 30px;
+}
+div#lista{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: inset 0 0 9px 0px black;
+    background-color:#3DDC84 ;
+}
+div#lista > ul > li{
+    color: rgb(0, 0, 0);
+    padding-right: 5px;
+    background-color:#83E1AD;
+
+    border: 1px solid black;
+}
+div#lista > ul {
+    
+    background-color: #063D1E;
+    box-shadow: 6px 4px 8px rgba(0, 0, 0, 0.432);
+    border-radius: 5px;
+}
+div#baseextra{
+    
+    padding-bottom: 20px;
+}
+
+footer{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+@keyframes float{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(5px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+article{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+article#deene{
+    justify-content: center;
+    animation: float ease-in-out infinite 3s;
+    background: black;
+    color: white;
+    border-radius: 15px;
+    padding: 2.5px 10px;
+    margin-top: 5px;
+}
+#heart{
+    width: 50px;
+    height: 50px;
+    box-shadow:inset 0px 0px 11px 1px rgba(255, 0, 0, 0.445);
+    border-radius: 5px;
+}

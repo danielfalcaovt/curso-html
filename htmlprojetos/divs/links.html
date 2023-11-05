@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSEUDO-CLASSE</title>
+    <style>
+
+        div{
+            background-color: black;
+            color: white;
+        }
+        div>p{
+            background-color: red;
+        }
+        div > ul{
+            display: none;
+        }
+        div:hover > ul{
+            display: block;
+        }
+        body{
+            font-family: "Robotica", Helvetica, sans-serif;
+            background: black;
+            color: white;
+        }
+        a{
+            color: red;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: white;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        .especial::before{
+            content: ">>";
+            text-decoration: none;
+            color: white;
+            font-weight: 100;
+
+        }
+        .especial::after{
+            content: "<<";
+            text-decoration: none;
+            color: white;
+            font-weight: 100;
+
+        }
+        .especial{
+            background: rgb(141, 70, 70);
+        }
+
+    
+        </style>
+</head>
+<body>
+    <h1>LINKS</h1>
+    <div>
+        <p id="menu">MENU:</p> 
+        <ul>
+            <li><a href="https://gustavoguanabara.github.io">IG</a></li>
+            <li class="especial"><a href="https://www.youtube.com">YTB</a></li>
+            <li><a href="https://www.whatsapp.com">WHATS</a></li>
+        </ul>
+    </div>
+</body>
+</html>

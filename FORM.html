@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KF GOURMET</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <h1>DEIXE SUA OPINIAO SOBRE OS NOSSOS SERVIÇOS PRESTADOS ou DEIXE UMA RECOMENDAÇAO DE DOCE:</h1>
+    <div class = "divisoria">
+    <form>
+
+        <!--- INPUT RECOMENDACAO-->
+        <label for="recomendacaodoce">Recomende aqui:</label>   
+    <input  id= "recomendacaodoce" type=" text" placeholder="Digite aqui sua opiniao" required>
+    <br>
+    <br>
+<!--- INPUT NOME COMPLETO-->
+    <label for="Nomecompleto">Nome Completo:</label>   
+    <input  id= "Nomecompleto" type=" text" placeholder="Digite aqui seu nome" required>
+    <br>
+    <br>
+<!--- INPUT DE EMAIL-->
+    <label for="email">Digite seu Email:</label>   
+    <input  id= "email" type="email" placeholder="Digite aqui seu email" required>
+    <br>
+    <br>
+<!---INPUT DE SENHA-->
+    <label for="password">Digite sua senha:</label>
+    <input type="password" placeholder="Digite aqui sua senha" required>
+    <br>   
+<hr>
+    <h3>Ja e nosso cliente??</h3> 
+    <!--- JA E NOSSO CLIENTE ?-->
+<select> 
+    <option selected disabled name="escolha" value = "">Selecione uma opçao</option>
+    <option  value="Sim">Com certeza!</option>
+    <option value="Nao">Ainda nao!</option>
+    
+</select>
+
+    <!--- DOCE PREFERIDO-->
+    <h3>Selecione o seu preferido:</h3>
+
+    <!-- RADIO DE CONE TRUFADO-->
+<label for="preferencia">Cone Trufado</label>
+<input type="radio" Value = "Cone Trufado" name="preffer" id="preferencia">
+<br>
+<!---- RADIO DE BROWNIE-->
+<br>
+<label for="preferencia2">Brownie</label>
+<input type="radio" Value = "Brownie" name="preffer" id="preferencia2">
+<br>
+<!--- RADIO DE TRUFA-->
+<br>
+<label for="preferencia3">Trufa</label>
+<input type="radio" name="preffer" value = "Trufa" id="preferencia3">
+<br>
+
+    <br>
+    <br>
+    <!--- BOX DE INGREDIENTES FAVORITOS-->
+<hr>
+
+<h3>Ingredientes Favoritos:</h3>
+<label for="cacau"> Chocolate</label>
+    <input type="checkbox" name="chocolate" id="cacau" value="chocolate">
+    <br>
+    <label for="moranga"> Morango</label>
+    <input type="checkbox" name="morango" id="moranga" value="Morango">
+    <br>
+    <label for="coco"> Prestigio</label>
+    <input type="checkbox" name="Prestigio" id="coco" value="prestigio">
+    <br>
+
+<hr>
+<h3>Escreva aqui a sua opiniao sobre os nossos serviços;</h3>
+<textarea name="opiniao" id="opn" cols="50" rows="10" placeholder="Escreva aqui sua opiniao;"></textarea>
+<hr>
+    <input type="submit" value="Enviar formulario.">
+    <hr>    
+
+
+    </form>
+
+
+
+    <a href="index.html">Voltar para pagina principal.</a>
+</div>
+    </body>
+</html>

@@ -1,0 +1,327 @@
+body{
+
+    font-family:'Indie Flower' , cursive;
+    font-weight: 700;
+
+}   
+
+.bg{
+    background-image: url(img/chocolatefundo.jpg);
+    background-size: cov; 
+    background-position: right;
+
+}
+
+
+
+h1{
+        font-size: 50px;color: rgb(255, 255, 255); 
+    }
+    p,h1, h2,h3,del,address,blockquote{
+    color: white;
+    }
+    a{
+color: white; text-decoration: none;
+    }
+header,nav,div{
+    text-align: center;
+
+}
+
+header{
+
+    background-image: url(img/chocolatepainel.jpg);
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 4%;
+    border:#000000;
+    border-style: solid;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+    
+}
+
+
+section{
+    width: 800px;
+    height: 700px;
+    position: relative;
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+    background-color: #743321;
+    text-align: center;
+    margin: auto;
+}
+.sobre11{
+border: black;
+border-radius: 10px;
+border-style: solid;
+background-color: black;
+
+}
+
+.ainstagram{
+    border: black;
+    border-radius: 10px;
+    border-style: solid;
+    margin-left: 350px;
+    margin-right:350px;
+    background-color: black;
+    font-family:cursive;
+}
+.tabelaa{
+    margin:auto;
+    color: white;
+    margin: 10 0 10 0;
+    padding: 25px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    background-color: #743321;
+    
+
+
+
+}
+
+li{
+color: white;
+margin-top: 5px;
+
+border-radius: 15px;
+border-color: black;
+border-style: solid;
+background: #743321;
+margin-right: 250px;
+margin-left: 250px;
+
+}
+
+ul{
+
+    color: white;
+ 
+}
+.divisoria{
+color: white;
+
+
+}
+.titulo{
+padding: 5px;
+border: 1px;
+border-color: black;
+border-radius: 10px;
+background-color:#000000  ;
+text-align: center;
+margin-top: -1px;
+letter-spacing: -1px;
+}
+.titulo:hover{
+background-color: rgb(19, 19, 19);
+}
+
+
+
+.textin{
+border-radius: 10px;
+border-style: solid;
+border-color: black;
+margin-right: 250px;
+margin-left: 250px;
+background:rgb(95, 0, 0);
+
+
+}
+
+    
+
+
+
+.button{
+border-radius: 15px;
+border-color:black ;
+background: rgb(95, 0, 0);
+border-style: solid;
+padding: 5px;
+
+}
+
+.button:hover{
+background:rgb(173, 0, 0) ;
+
+}
+
+.firstprice{
+border-radius: 15px;
+border-style: solid;
+border-color: black;
+background-color: rgb(95, 0, 0);
+padding: 5px;
+padding-left: 15px;
+padding-right: 15px;
+
+}
+
+.secondprice{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(95, 0, 0);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.thirdprice{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(95, 0, 0);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+}
+
+.ffprice{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    background-color: rgb(95, 0, 0);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 105px;
+
+}
+
+.ssprice{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    background-color: rgb(95, 0, 0);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 105px;
+
+
+
+}
+
+.ttprice{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    background-color: rgb(95, 0, 0);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 105px;
+}
+
+.sobre{
+border-radius: 15px;
+border-color: black;
+border-style: solid;
+margin-top: px;
+margin-left: 250px;
+margin-right: 50px;
+background-color:rgb(95, 0, 0) ;
+padding-right: 25px;
+padding-bottom: 5px;
+padding-top: 5px;
+padding-left: 25px;
+
+}
+.sobre:hover{
+background-color: rgb(125, 0, 0);
+
+}
+
+.form{
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 50px;
+    margin-right: 250px;
+    background-color:rgb(95, 0, 0) ;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 25px;
+   
+    
+    }
+    .form:hover{
+    background-color: rgb(125, 0, 0);
+    
+    }
+
+    .trufa{
+width: 30%;
+display: inline-block;
+border: #000000;
+border: solid 3px;
+border-radius: 15%;
+background: #411205;
+        text-align: center;
+
+        
+        height: 470px;
+    left: 290px;
+
+        position: absolute;
+}
+.conetrufado{
+    background: #411205;
+    border: #000000;
+    border: solid 3px;
+    border-radius: 15%;
+    display: inline-block;
+    width: 30%;
+    height: 470px;
+right: 5px;
+    position: absolute;
+}
+        
+       .brownie{
+        background: #411205;
+display: inline-block;
+border: #000000;
+border: solid 3px;
+border-radius: 15%;
+width: 30%;
+height: 470px;
+position: absolute;
+left: 5px;
+}
+    
+
+.whatsapp{
+    width: 50px;
+    height: 50px;
+position: fixed;
+bottom: 0;
+right: 0;
+
+}
+
+
+.brownie:hover{
+background-color: #861e01;
+
+}
+.conetrufado:hover{
+    background-color: #861e01;
+    
+    }
+    .trufa:hover{
+        background-color: #861e01;
+        
+        }

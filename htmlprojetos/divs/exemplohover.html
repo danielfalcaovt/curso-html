@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        div{
+            background: red;
+            border: solid 3px black;
+            border-radius: 15px;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+        }
+        div>p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            background: red;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <p>passe o mouse nessa prr</p>
+    <div>aqui
+        <p>textinho</p>
+    </div>
+</body>
+</html>
