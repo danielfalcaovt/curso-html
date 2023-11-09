@@ -65,6 +65,7 @@ section.normal{
     background: black url("../imagens/background001.jpg") center center/cover no-repeat fixed;
 }
 section.img{
+    box-shadow: inset 2px 2px 2px 2px black;
     background: rgb(51, 48, 48);
     color: white;
     background: black url("../imagens/background002.jpg") center center/cover no-repeat fixed;
